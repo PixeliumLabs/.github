@@ -33,64 +33,6 @@ Rather than simply recreating old interfaces, we aim to reinterpret their visual
 
 ---
 
-# 🖥️ Retro App Suite
-
-The main project at PixeliumLabs is a collection of small, independent applications that share the same visual and technological identity.
-
-The idea is to create a kind of **digital toolbox**, where each application solves a specific problem while still feeling like part of the same universe.
-
-### 🎨 Visual Philosophy
-
-The interface takes inspiration from:
-
-* classic Windows applications;
-* skeuomorphism;
-* compact utility software;
-* strong borders and shadows;
-* pixel art;
-* older operating systems;
-* desktop utilities;
-* and software designed to simply **work**.
-
-But we don't want to be trapped in the past.
-
-The retro aesthetic is our starting point. The engineering remains modern, responsive, and multiplatform.
-
----
-
-## 🧩 Architecture
-
-The suite is designed around a modular architecture.
-
-Each application should be able to evolve relatively independently while shared components provide a common foundation across the ecosystem.
-
-```text
-PixeliumLabs
-│
-├── Retro App Suite
-│   ├── App A
-│   ├── App B
-│   ├── App C
-│   └── ...
-│
-├── Pixelium UI
-│   ├── Components
-│   ├── Themes
-│   ├── Icons
-│   └── Design Tokens
-│
-└── Shared
-    ├── Utilities
-    ├── Services
-    └── Core
-```
-
-The goal is to avoid turning every application into an isolated island.
-
-When a component, behavior, or solution is improved, that knowledge should benefit the rest of the suite whenever possible.
-
----
-
 # 🛠️ Technology
 
 The technology stack may evolve as the project grows, but the ecosystem is currently centered around:
@@ -145,7 +87,7 @@ Experimental components, unusual ideas, prototypes, and solutions that may event
 
 ---
 
-# 🧱 Pixelium UI
+# 🧱 [Pixelium UI](https://github.com/PixeliumLabs/pixelium_ui)
 
 An important part of the ecosystem is the creation of a shared visual language.
 
@@ -171,52 +113,6 @@ This includes things such as:
 * and reusable UI components.
 
 The long-term goal is to gradually build a **design system of our own**, rather than relying exclusively on the default components provided by each platform.
-
----
-
-# 🖱️ Interaction
-
-One of the things we want to explore is software that genuinely responds to the user's actions.
-
-For example:
-
-```text
-Normal
-   ↓
-Hover
-   ↓
-Pressed
-   ↓
-Active
-   ↓
-Disabled
-```
-
-Each state should have a clear visual purpose.
-
-Small changes in position, shadow, border, or color can communicate exactly what is happening.
-
----
-
-# 📦 Project Organization
-
-PixeliumLabs repositories may represent different parts of the ecosystem.
-
-For example:
-
-```text
-pixeliumlabs/
-│
-├── retro-app-suite
-├── pixelium-ui
-├── pixelium-icons
-├── pixelium-core
-└── ...
-```
-
-The exact structure may evolve as the architecture matures.
-
-The goal is to keep projects independent enough to remain maintainable, while connected enough to form a coherent ecosystem.
 
 ---
 
